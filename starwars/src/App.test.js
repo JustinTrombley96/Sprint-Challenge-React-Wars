@@ -19,8 +19,3 @@ it('renders without crashing', () => {
     const trees = renderer.create(<Characters />).toJSON()
     expect(trees).toMatchSnapshot()
   });
-
-  it('matches snapshot 3', () => {
-    const trees = renderer.create(<Characters />).toJSON()
-    expect(trees).toMatchSnapshot()
-  });
